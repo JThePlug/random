@@ -32,19 +32,21 @@ function createThirdScene() {
 // This function is called whenever you press the "Go!" button.
 function createRandomScene() {
     // Generate a random number between 0 and 1, and store it in a variable.
-    
+    var rando = Math.random()
     // If the number is less than 0.33, call the function to create your first scene.
-    
+    if(rando<0.33){
+     createFirstScene()   
+    }
     
     
     // Else, if the number is less than 0.67, call the function to create your second scene.
+    else{
+    createSecondScene
     
-    
-    
-    // Else, call the function to create your third scene.
-    
-    
-    
+    }// Else, call the function to create your third scene.
+    else{
+    createThirdScene()
+    }
 }
 
 
