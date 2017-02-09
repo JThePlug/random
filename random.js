@@ -17,7 +17,7 @@ function createSecondScene() {
     makeRect(50, 50, 50, 50, "grey", 0.90)
    makeImage("http://www.decalninja.com/images/12936670968802061501430.jpeg",50,50,50,50,1) 
 }
-
+h
 
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
