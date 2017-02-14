@@ -5,8 +5,8 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
-    makeRect(50, 50, 50, 50, "black", 1)
-    makeImage("https://img.clipartfest.com/94f1d48ddfcb0af2f080253b7bd127e8_final-result-mario-face-clip-art_617-616.png",50,50,50,50,1)
+    makeRect(70, 25, 50, 50, "black", 1)
+    makeImage("https://img.clipartfest.com/94f1d48ddfcb0af2f080253b7bd127e8_final-result-mario-face-clip-art_617-616.png",70,25,50,50,1)
 }
 
 
@@ -14,17 +14,17 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    makeRect(50, 50, 50, 50, "grey", 0.90)
-   makeImage("http://www.decalninja.com/images/12936670968802061501430.jpeg",50,50,50,50,1) 
+    makeRect(70, 25, 50, 50, "black", 0.90)
+   makeImage("http://www.decalninja.com/images/12936670968802061501430.jpeg",70,25,50,50,1) 
 }
-h
+
 
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    makeRect(50, 50, 50, 50, "black", 0.90)
-    makeImage("http://vignette2.wikia.nocookie.net/raresonicthehedgehoggames/images/2/23/Classic_sonic_face.svg/revision/latest?cb=20120220083439",50,50,50,50,1)
+    makeRect(70, 25, 50, 50, "black", 0.90)
+    makeImage("http://vignette2.wikia.nocookie.net/raresonicthehedgehoggames/images/2/23/Classic_sonic_face.svg/revision/latest?cb=20120220083439",70,25,50,50,1)
 }
 
 
