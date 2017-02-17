@@ -5,7 +5,7 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
-    makeRect(70, 25, 50, 50, "black", 1)
+    makeRect(70, 25, 50, 50, "White", 1)
     makeImage("https://img.clipartfest.com/94f1d48ddfcb0af2f080253b7bd127e8_final-result-mario-face-clip-art_617-616.png",70,25,50,50,1)
 }
 
@@ -14,7 +14,7 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    makeRect(70, 25, 50, 50, "black", 0.90)
+    makeRect(70, 25, 50, 50, "white", 0.90)
    makeImage("http://www.decalninja.com/images/12936670968802061501430.jpeg",70,25,50,50,1) 
 }
 
@@ -23,7 +23,7 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    makeRect(70, 25, 50, 50, "black", 0.90)
+    makeRect(70, 25, 50, 50, "white", 0.90)
     makeImage("http://vignette2.wikia.nocookie.net/raresonicthehedgehoggames/images/2/23/Classic_sonic_face.svg/revision/latest?cb=20120220083439",70,25,50,50,1)
 }
 
@@ -39,15 +39,19 @@ function createRandomScene() {
     // If the number is less than 0.33, call the function to create your first scene.
     if(rando<0.33){
      createFirstScene()    
+     makeText("Mario", 30,70)
     
     }
     // Else, if the number is less than 0.67, call the function to create your second scene.
     else if (rando<0.67){
     createSecondScene()
+    makeText("MegaMan",120,40)
     
-    }// Else, call the function to create your third scene.
+     }
+    // Else, call the function to create your third scene.
     else {
     createThirdScene()
+    makeText("Sonic",10,30)
     }
 }
 
